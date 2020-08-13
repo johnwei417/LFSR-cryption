@@ -5,7 +5,7 @@ For this challenge, the LFSR is initialized with a value (which is 0x12345678 he
 ## How to run this program
 Clone this project, and run main class (CryptMain.java)
 
-## Key method for decryption and encryotion: 
+## Key method for decryption and encryption: 
  static byte[] Crypt(byte[] data, long initialValue)
 
 <h3>Sample test input</h3>
