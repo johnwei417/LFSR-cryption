@@ -15,11 +15,15 @@ Clone this project, and run main class (CryptMain.java)
         System.out.println("Original data is: "+data);
         byte[] bytedata = Encrypt.encode(data);
         System.out.println("Original byte data: "+Arrays.toString(bytedata));
+        
+        //call crypt method to encrypt original data
         Crypt(bytedata, seed);
 
         System.out.println("Encrypted data is: " + Arrays.toString(bytedata));
 
         System.out.println("Start Decrypting data ...");
+        
+        //call crypt method to decrypt data
         Crypt(bytedata, seed);
         System.out.println("Reverse encryption "+Arrays.toString(bytedata));
         System.out.println("Original data recovered: " + Encrypt.decode(bytedata));
