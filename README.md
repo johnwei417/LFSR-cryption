@@ -1,5 +1,5 @@
 # LFSR-Cryption
-Use a Linear Feedback Shift Register (LFSR) to produce a key stream， the LFSR is initialized with a value (which is 0x12345678 here) and stepped to produce the key stream. The next key value is read from the LFSR after eight steps, with the actual key being the lowest byte of the current LFSR value.
+Use a Linear Feedback Shift Register (LFSR) to produce a key stream, the LFSR is initialized with a value (which is 0x12345678 here) and stepped to produce the key stream. The next key value is read from the LFSR after eight steps, with the actual key being the lowest byte of the current LFSR value.
 
 ## How to run this program
 Clone this project, and run main class (CryptMain.java)
